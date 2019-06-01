@@ -2,4 +2,4 @@
 port = 5001
 
 [log]
-filename = '/Users/300067308/app_test.log'
+filename = 'app.log'

@@ -3,8 +3,8 @@ package services
 import (
 	"context"
 
-	"github.com/go-logging/dto/request"
-	"github.com/go-logging/dto/response"
+	"github.com/tandonraghav/go-logging/dto/request"
+	"github.com/tandonraghav/go-logging/dto/response"
 )
 
 type AlertService interface {

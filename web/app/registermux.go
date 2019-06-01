@@ -1,12 +1,12 @@
 package app
 
 import (
-	"github.com/go-logging/web/config"
+	"github.com/tandonraghav/go-logging/web/config"
 	"net/http"
 
-	"github.com/go-logging/web/api"
-	logger "github.com/go-logging/web/logging"
-	"github.com/go-logging/web/middlewares"
+	"github.com/tandonraghav/go-logging/web/api"
+	logger "github.com/tandonraghav/go-logging/web/logging"
+	"github.com/tandonraghav/go-logging/web/middlewares"
 	"github.com/go-chi/chi"
 )
 

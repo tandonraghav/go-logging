@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/go-logging/utilities"
+	"github.com/tandonraghav/go-logging/utilities"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )
@@ -17,7 +17,7 @@ const(
 func InitializeConfig() {
 	viper.SetDefault(LOG_LEVEL, "debug")
 	viper.SetDefault(SERVER_ID, "M01")
-	viper.SetDefault(LOG_FILE_NAME,"/Users/300067308/app.log")
+	viper.SetDefault(LOG_FILE_NAME,"app.log")
 	viper.SetDefault(LOG_KEYS,"ReqID Username")
 	viper.SetConfigName("config")
 	viper.AddConfigPath(".")

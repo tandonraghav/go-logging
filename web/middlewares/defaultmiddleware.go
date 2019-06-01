@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"github.com/go-logging/utilities"
-	logger "github.com/go-logging/web/logging"
+	"github.com/tandonraghav/go-logging/utilities"
+	logger "github.com/tandonraghav/go-logging/web/logging"
 	"context"
 	"net/http"
 	"runtime/debug"

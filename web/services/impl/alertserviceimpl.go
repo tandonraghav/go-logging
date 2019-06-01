@@ -1,10 +1,10 @@
 package impl
 
 import (
-	"github.com/go-logging/dto/request"
-	"github.com/go-logging/dto/response"
-	logger "github.com/go-logging/web/logging"
-	"github.com/go-logging/web/services"
+	"github.com/tandonraghav/go-logging/dto/request"
+	"github.com/tandonraghav/go-logging/dto/response"
+	logger "github.com/tandonraghav/go-logging/web/logging"
+	"github.com/tandonraghav/go-logging/web/services"
 	"context"
 )
 

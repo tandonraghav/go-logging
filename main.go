@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/go-logging/web/app"
-	"github.com/go-logging/web/config"
-	"github.com/go-logging/web/logging"
-	logger "github.com/go-logging/web/logging"
+	"github.com/tandonraghav/go-logging/web/app"
+	"github.com/tandonraghav/go-logging/web/config"
+	"github.com/tandonraghav/go-logging/web/logging"
+	logger "github.com/tandonraghav/go-logging/web/logging"
 
 	"context"
 	_ "go.uber.org/zap"

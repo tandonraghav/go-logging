@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	logger "github.com/go-logging/web/logging"
-	"github.com/go-logging/web/services"
-	"github.com/go-logging/web/services/impl"
+	logger "github.com/tandonraghav/go-logging/web/logging"
+	"github.com/tandonraghav/go-logging/web/services"
+	"github.com/tandonraghav/go-logging/web/services/impl"
 )
 
 type alertHandler struct {

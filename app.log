@@ -1,0 +1,4 @@
+Jun  2 01:28:04.825 [/Users/300067308/Documents/repos/src/github.com/tandonraghav/go-logging/main.go 20] [36m [INFO] [0mThis is actual line
+Jun  2 01:28:04.825 [/Users/300067308/Documents/repos/src/github.com/tandonraghav/go-logging/main.go 21] [36m [INFO] [0mInitialized Logger config
+Jun  2 01:28:04.825 [/Users/300067308/Documents/repos/src/github.com/tandonraghav/go-logging/main.go 23] [36m [INFO] [0mInit Completed
+Jun  2 01:28:04.825 [/Users/300067308/Documents/repos/src/github.com/tandonraghav/go-logging/web/app/registermux.go 20] [36m [INFO] [0mServer starting at port 5001

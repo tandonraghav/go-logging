@@ -1,8 +1,8 @@
 package logging
 
 import (
-	"github.com/go-logging/utilities"
-	"github.com/go-logging/web/config"
+	"github.com/tandonraghav/go-logging/utilities"
+	"github.com/tandonraghav/go-logging/web/config"
 	"context"
 	_  "github.com/antonfisher/nested-logrus-formatter"
 	"github.com/sirupsen/logrus"
