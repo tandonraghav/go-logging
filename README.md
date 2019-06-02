@@ -1,4 +1,4 @@
-<h3>This is a sample code to initialize Context Logging</h3>
+##This is a sample code to initialize Context Logging</h3>
 To Initialize Logger
 
 `logger.InitializeLogger()`
@@ -17,7 +17,7 @@ Logger struct
   	return context.WithValue(ctx, loggerKey{}, newContextLogger(ctx))
   }`
   
-  <h4> To Use Logging anywhere<h4>
+  ### To Use Logging anywhere
   
   `import logger "github.com/tandonraghav/go-logging/logging"`
   
@@ -26,7 +26,7 @@ Logger struct
   The Context is passed around and all Log lines will be 
   printed with Basic info like requestID, Username etc.
   
-  <h4>Sample Log Lines</h4>
+  ###Sample Log Lines
   
   `Jun  2 02:07:12.969 [/web/middlewares/defaultmiddleware.go 18]  [INFO] [201906020207M011559421432969213000] [NA] applyMid=true`
   
