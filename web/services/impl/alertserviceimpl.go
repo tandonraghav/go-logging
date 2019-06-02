@@ -1,11 +1,11 @@
 package impl
 
 import (
+	"context"
 	"github.com/tandonraghav/go-logging/dto/request"
 	"github.com/tandonraghav/go-logging/dto/response"
-	logger "github.com/tandonraghav/go-logging/web/logging"
+	logger "github.com/tandonraghav/go-logging/logging"
 	"github.com/tandonraghav/go-logging/web/services"
-	"context"
 )
 
 type alertServiceImpl struct {

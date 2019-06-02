@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	logger "github.com/tandonraghav/go-logging/web/logging"
+	logger "github.com/tandonraghav/go-logging/logging"
 	"github.com/tandonraghav/go-logging/web/services"
 	"github.com/tandonraghav/go-logging/web/services/impl"
 )

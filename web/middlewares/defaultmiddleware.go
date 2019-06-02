@@ -1,9 +1,9 @@
 package middlewares
 
 import (
-	"github.com/tandonraghav/go-logging/utilities"
-	logger "github.com/tandonraghav/go-logging/web/logging"
 	"context"
+	"github.com/tandonraghav/go-logging/appcontext"
+	logger "github.com/tandonraghav/go-logging/logging"
 	"net/http"
 	"runtime/debug"
 )
@@ -11,7 +11,7 @@ import (
 
 func DefaultMiddleware(next http.Handler) http.Handler {
 	fn:= http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		r=r.WithContext(utilities.WithContext(r.Context()))
+		r=r.WithContext(appcontext.WithContext(r.Context()))
 		r=r.WithContext(logger.WithLogger(r.Context()))
 		applyMid := applyMid(w, r)
 		if applyMid {

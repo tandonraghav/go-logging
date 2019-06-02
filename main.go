@@ -1,12 +1,10 @@
 package main
 
 import (
-	"github.com/tandonraghav/go-logging/web/app"
-	"github.com/tandonraghav/go-logging/web/config"
-	"github.com/tandonraghav/go-logging/web/logging"
-	logger "github.com/tandonraghav/go-logging/web/logging"
-
 	"context"
+	"github.com/tandonraghav/go-logging/config"
+	logger "github.com/tandonraghav/go-logging/logging"
+	"github.com/tandonraghav/go-logging/web/mux"
 	_ "go.uber.org/zap"
 )
 
@@ -14,19 +12,16 @@ import (
 var defaultContext = context.Background()
 
 func init() {
-
 	config.InitializeConfig()
-	logging.InitializeLogger()
-	logger.GetLogger(defaultContext).Info("This is actual line")
+	logger.InitializeLogger()
 	logger.GetLogger(defaultContext).Info( "Initialized Logger config")
-	go app.InitilizeMux()
+
 	logger.GetLogger(defaultContext).Info( "Init Completed")
-	//logging.InitLoggers()
-	//appLogger.Debug(req.Context(),"Performing Actions",zap.Reflect("action",action))
 
 }
 
 func main() {
+	go mux.InitilizeMux()
 	select {
 
 	}
