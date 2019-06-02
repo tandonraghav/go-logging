@@ -1,4 +1,5 @@
 ##This is a sample code to initialize Context Logging
+
 To Initialize Logger
 
 `logger.InitializeLogger()`
