@@ -1,4 +1,4 @@
-###This is a sample code to initialize Context Logging
+#This is a sample code to initialize Context Logging
 
 To Initialize Logger
 
